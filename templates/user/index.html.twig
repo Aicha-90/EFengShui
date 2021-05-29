@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}e-Feng Shui{% endblock %}
+
+{% block body %}
+
+    <div id="contenuSubs">
+        <h1 class="subsTitle">{% trans %}Sign up !{% endtrans %}</h1>
+
+    {{ form_start(UserSubsForm) }}
+        {{ form_row(UserSubsForm.nom) }}
+        {{ form_row(UserSubsForm.prenom) }}
+        {{ form_row(UserSubsForm.email) }}
+        {{ form_row(UserSubsForm.password) }}
+        {{ form_row(UserSubsForm.conditions) }}
+
+        <button id="btnSubs">{% trans %}Sign me up{% endtrans %}</button>
+        {{ form_row(UserSubsForm._token) }}
+    {{ form_end(UserSubsForm) }}
+    </div>
+
+{% endblock %}
+
+

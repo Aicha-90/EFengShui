@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+ 
+
+
+{% block title %}e-Feng Shui{% endblock %}
+
+
+
+{% block body %}
+
+
+    
+    {% for message in app.flashes('info') %}
+    <div class="alert alert-info" role="alert">
+    {{ message}}
+
+    </div 
+    {% endfor %}
+
+<button><a href="{{ path("accueil") }}" class="btn btn-dark" onclick="return confirm('Votre compte a bien été supprime')">Confirmer</a></button>
+ 
+{% endblock %}

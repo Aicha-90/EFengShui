@@ -1,0 +1,19 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    #csrf_protection: true
+    #http_method_override: true
+
+    # Enables session support. Note that the session will ONLY be started if you read or write from it.
+    # Remove or comment this section to explicitly disable session support.
+    # J'autorise ici le session support, le null dans handler_id signifie que php va utiliser le mécanisme de session native de php. Là on utilise un service de symfony et on lui précise où enregistrer les informations
+    session:
+        enabled: true
+        handler_id: 'session.handler.native_file'
+        save_path: '%kernel.project_dir%/var/sessions/%kernel.environment%'
+        cookie_secure: auto
+        cookie_samesite: lax
+
+    #esi: true
+    #fragments: true
+    php_errors:
+        log: true

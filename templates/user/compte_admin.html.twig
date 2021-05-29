@@ -1,0 +1,132 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} e-Feng Shui {% endblock %}
+
+{% block body %}
+<div id="blocTgestion">
+    <h1 class="titre">{% trans %}MANAGEMENT{% endtrans %}</h1>
+    <div id="load"></div>
+</div>
+<div class="blocAdmin">
+    <aside>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-secondary"id="clientsList">{% trans %}Customer List{% endtrans %}</button>
+            <button type="button" class="btn btn-secondary" id="diagList">{% trans %}Diagnostic List{% endtrans %}</button>
+            <button type="button" class="btn btn-secondary" id="demandesList">{% trans %}Request List{% endtrans %}</button>
+        </div>
+    </aside>
+    <div id="blocResultat">
+        <div class="flex-column-reverse" id="tabUser">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead class="entete"> 
+                                <tr>
+                                    <th>{% trans %}N°customer{% endtrans %}</th>
+                                    <th>{% trans %}First name{% endtrans %}</th>
+                                    <th>{% trans %}Name{% endtrans %}</th>
+                                    <th>{% trans %}Email{% endtrans %}</th>
+                                    <th>{% trans %}Roles{% endtrans %}</th>
+                                    <th colspan=2>{% trans %}Actions{% endtrans %}</th>
+                                </tr> 
+                            </thead>
+                            <tbody class="corps">
+                                {% for client in listeclient %}
+                                    <tr>
+                                        <td>{{client.id}}</td>
+                                        <td>{{client.nom}}</td>
+                                        <td>{{client.prenom}}</td>
+                                        <td>{{client.email}}</td>
+                                        <td>{{client.roles|join(", ")}}</td>
+                                        <td><a href='id'><i class='fa fa-pen'></i></a></td>
+                                        <td><a href='id'><i class='fa fa-trash'></i></a></td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-column-reverse" id="tabDiagnostic">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead class="entete"> 
+                               <tr>
+                                    <th>{% trans %}N°diagnostic{% endtrans %}</th>
+                                    <th>{% trans %}N°file{% endtrans %}</th>
+                                    <th>{% trans %}Title{% endtrans %}</th>
+                                    <th>{% trans %}Date{% endtrans %}</th>
+                                    <th>{% trans %}Price{% endtrans %}</th>
+                                    <th>{% trans %}Expertise{% endtrans %}</th>
+                                    <th>{% trans %}Send{% endtrans %}</th>
+                               </tr> 
+                            </thead>
+                            <tbody class="corps">
+                                {% for diag in listediag %}
+                                    <tr>
+                                        <td>{{diag.id}}</td>
+                                        <td>{{diag.critere.id}}</td>
+                                        <td>{{diag.critere.titreDiagnostic}}</td>
+                                        <td>{{diag.date|date("d/m/Y")}}</td>
+                                        <td>{{diag.prix}}</td>
+                                        <td><a href='' download='diactostic.pdf'><i class='fas fa-file-download'> </i></a></td>
+                                        <td><a href='#'><button><i class='fas fa-envelope'></i></button></a></td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-column-reverse" id="tabCritere">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead class="entete">
+                                <tr> 
+                                    <th>{% trans %}N°file{% endtrans %}</th>
+                                    <th>{% trans %}Title{% endtrans %}</th>
+                                    <th>{% trans %}M²{% endtrans %}</th>
+                                    <th>{% trans %}Place{% endtrans %}</th>
+                                    <th>{% trans %}Year{% endtrans %}</th>
+                                    <th>{% trans %}Place plan{% endtrans %}</th>
+                                    <th>{% trans %}Photo{% endtrans %}</th>
+                                    <th>{% trans %}Orientation{% endtrans %}</th>
+                                    <th colspan=2>{% trans %}Actions{% endtrans %}</th>
+                                </tr> 
+                            </thead>
+                            <tbody class="corps">
+                                {% for crit in listedemande %}
+                                    <tr>
+                                        <td>{{ crit.id }}</td>                                                         
+                                        <td>{% trans %}N°customer: {% endtrans %}{{ crit.user.id }}<br><hr>{{ crit.titreDiagnostic }}</td>                               
+                                        <td>{{ crit.nbMCarre }}</td>                              
+                                        <td>{{ crit.lieu }}</td>
+                                        <td>{{crit.anneeConstr}}</td>                              
+                                        <td><img src="../img/{{ crit.planLieu }}" alt="plan" class="imgdiagnostic"/></td>                              
+                                        <td><img src="../img/{{ crit.photoLieu }}" alt="plan" class="imgdiagnostic"/></td>                              
+                                        <td>{{ crit.orientation }}</td>
+                                        {% if crit.diagnostic.statutExpertise is defined %}
+                                        <td><i class="fas fa-check"></i></td>
+                                        <td>Déjà validé</td>
+                                        {% else %}
+                                        <td><form method='POST' action="{{ path('diagnostic_ajouter', { id: crit.id }) }}" enctype="multipart/form-data"><input type='file' name='pdfExpertise' class='btnParcourir'/></form></td>
+                                        <td><button type="button" class='valider'><a href="{{ path("diagnostic_ajouter", { id: crit.id }) }}">Valider</a></button></td>   
+                                        {% endif %}                          
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

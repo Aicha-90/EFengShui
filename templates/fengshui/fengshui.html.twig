@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="carte">
+  <div class="bloc">
+    <img src="/img/sf3.jpg" class="card-img" alt="chat chinois">
+    <div class="card-body">
+      <h5 class="card-title">{% trans %}The origins of Feng Shui{% endtrans %}</h5>
+      <p class="card-text">
+      {% trans %}Feng Shui is an ancient Chinese science about the role of energy in influencing the quality of life of each person. Feng Shui means wind and water, the basic elements of life, and is based on the principle that every object and every human being emanates energy. In order to have a harmonious life, a satisfying financial and emotional situation, a person's energies must positively interact with the energies of the objects around us{% endtrans %}</p>
+    </div>
+  </div>
+  <div class="bloc">
+    <img src="/img/fondText.png" class="card-img" alt="tableau eFengShui">
+    <div class="card-body">
+      <h5 class="card-title">{% trans %}The fundamentals{% endtrans %}</h5>
+      <p class="card-text">
+        {% trans %}Wind and Water are the two most fundamental forms of life energy. Obviously without air and water, life would be impossible. They also symbolize the manifestations of the movement of energy. -->
+        The goal of Feng Shui is therefore to harmonize the environmental energy of a place in a way that promotes the health, well-being and prosperity of its inhabitants.{% endtrans %}</p>
+    </div>
+  </div>
+  <div class="bloc">
+    <img src="/img/sf2.jpg" class="card-img" alt="personnes en méditation">
+    <div class="card-body">
+      <h5 class="card-title">{% trans %}The benefits{% endtrans %}</h5>
+      <p class="card-text">
+        {% trans %}Applying Feng Shui in a company, an office or a meeting room, allows to create a space under good influences. Moreover, it helps to promote understanding within a work team by directing everyone in the right direction. It also avoids absenteeism thanks to a pleasant place and atmosphere, and harmonizes relations with the company's economic partners. Consequently, it increases motivation and fulfilment in a beneficial environment.{% endtrans %}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

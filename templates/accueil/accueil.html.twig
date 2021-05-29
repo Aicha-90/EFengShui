@@ -1,0 +1,93 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}e-Feng Shui{% endblock %}
+
+ 
+{% block body %}
+    <!-- Caroussel Bootstarp -->
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img id="fond2" src="/img/fond1.png" class="d-block w-100" alt="lit double chambre">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img id="fond1" src="/img/fond2.jpeg" class="d-block w-100" alt="cuisine">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="btn_diagnostic">
+
+
+      <!-- Si PAS CONNECTé-->
+      {% if not is_granted("IS_AUTHENTICATED_FULLY") %}
+        <button class="buttonDiag"><a href="{{ path("app_login") }}">{% trans %}Start your Diagnostic{% endtrans %}</a></button>
+
+      {% endif %}
+
+      <!-- Si USER-->
+      {% if is_granted("IS_AUTHENTICATED_FULLY") %}
+       
+        <button class="buttonDiag"><a href="{{ path ("criteres_ajouter") }}">{% trans %}Start your Diagnostic{% endtrans %}</a></button>
+        
+      {% endif %}
+
+        
+    </div>
+<!-- Fin de Caroussel Bootstarp -->  
+
+<div class="concept">
+
+  <div class="textAccueil">
+
+    <h2 id="titleHome">{% trans %}Feng Shui expertise{% endtrans %}<br>{% trans %}using artificial intelligence{% endtrans %}</h2>
+    
+      <p>{% trans %}Feng Shui is an ancestral Chinese art meaning wind for Feng and water for Shui, based on the harmonization of the space and the individual who lives there. The intervention of a specialist, in our case Monica, expert for more than 5 years, called ''Master'', is necessary to practice the energetic regulation of the place. In order to make a diagnosis, she starts by taking measurements of each of the house or office. Analysis by mathematical calculations, gives a report and then accompaniment. In order to finish it ends with the installation, that is to say the change of the elements of the room by her care or by the client himself. 
+        We are in an era where the
+        new technology is and will be increasingly used. The implementation of an artificial intelligence (chatbot) will on the one hand allow us to have a quick access to information necessary for the expertise. But also to give more precise and faster advice.{% endtrans %}        
+      </p>
+  </div>
+
+    <div class="imgAccueil">
+      <img src="/img/boussole.jpg" id="boussole" alt="boussole">
+    </div>
+
+</div>
+    
+  </div><!-- ESTIMATION -->
+    <div class="estimation">
+        <div class="talk-bubble tri-right border round btm-right-in">
+            <div class="talktext">
+                <h5>{% trans %}Price estimate?{% endtrans %}</h5><br>
+                <p>{% trans %}Enter the number of m² of your surface, for which you want to make the Feng Shui expertise.{% endtrans %}</p>
+                <form method="POST" action="{{ path("estimation") }}">
+                    <input type="text" placeholder="m²" name="nbMcarre" class="inputMcarre">
+                    <button type="submit" class="button" id="buttonCalculer" >{% trans %}Calculate{% endtrans %}</button> 
+                </form>
+            </div>
+        </div>
+        {% if montant is defined %}
+        <div class="estimation2">
+          <div class='talk-bubble tri-right border round btm-right-in' id='resEstimation'>
+            <div class='talktext'>
+                <h5>{% trans %}Your estimate is:{% endtrans %}</h5><br>
+                <p class="montant">{{ montant }} €<p>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+    </div><!-- BUDDAH -->
+
+  <div class="buddha">
+    <img src="/img/img591.png" alt="buddha" class="">
+  </div>
+     <!-- Footer -->
+         
+{% endblock %}

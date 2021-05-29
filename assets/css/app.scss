@@ -1,0 +1,1021 @@
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@font-face {
+    font-family: "Noticia Text";
+    @import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+    font-family: "Dancing Script";
+    @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+}
+
+/*******RESET CSS ******************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none; //color: inherit;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+
+/*******FIN RESET CSS ******************/
+
+/*******MEDIA QUERIES ******************/
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+
+/*******HEADER******************/
+
+body {
+    background-color: #edf7f1;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.navbar-logo h1{
+margin-top: -5px;   
+font-size: 30px;
+font-family: 'Dancing Script', cursive;
+color:#4d4d4d;
+}
+
+#imglogo{
+    widows:200px;
+    height:150px;
+    margin:10px 10px 10px 10px;
+}
+.sloggan{
+    padding-left:30px;
+}
+
+.icones{
+    display: flex;
+    float: right;
+}
+
+
+.fa-globe{
+    color:#4d4d4d;
+    margin:10px 20px 10px 20px;
+}
+
+.fa-user-circle{
+    color:#4d4d4d;
+    margin:10px -10px 5px 20px;
+}
+
+.col-lg-1 {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-list li {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Noticia Text', serif;
+    text-decoration: none;
+}
+
+.nav-link, .mention a{
+    color:#4d4d4d;
+
+}
+
+/***************CARROUSEL***********/
+
+/* page accueil */
+
+body {
+    background: #edf7f1;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.btn_diagnostic {
+    padding: 40px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonDiag {
+    border-radius: 10px;
+    background-color: #ff8a84;
+    width: 320px;
+    height: 90px;
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+}
+
+
+.titre_accueil{
+    margin: 70px;
+    font-size: 40px;
+    
+}
+
+.concept {
+    display: flex;
+    margin: 50px;
+
+}
+
+/********************************************* accueil */
+.fondText { 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -50;
+}
+
+.container {
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+    border: rgba(0, 128, 0, 0.507);
+    border-radius: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#titleHome{
+    text-align: left;
+    font-size: 40px;
+    color:#4d4d4d;
+    font-family: 'Noticia Text', serif; 
+
+}
+
+.para1 {
+    width: 400px;
+    height: 450px;
+    margin: 30px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.textAccueil {
+    width: 60%;
+    padding: 10px 150px 50px 50px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom:10px;
+    text-indent: 1.5em;
+    line-height: 1.5;
+    color:#4d4d4d;
+    font-family: 'Noticia Text', serif;
+}
+
+#boussole{
+    width:400px;
+    height:400px;
+    margin-left:100px;
+    margin-bottom: 100px;
+}
+ 
+.buddha {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.buddha img {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+/*------------------------------------page feng shui-------------------------------------------------- */
+.carte{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 30px 30px 30px;
+    vertical-align: baseline;
+ 
+
+}
+
+
+.bloc{
+    width: 400px;
+    margin: 10px;
+    background-color: white;
+    
+}
+.card-img{
+    width: 400px;
+    height: 280px;
+}
+.card-text{
+    font-family: "Noticia Text";
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.bloc{
+    width: 400px;
+    margin: 10px;
+    background-color: white;
+    
+}
+.card-img{
+    width: 400px;
+    height: 280px;
+}
+.card-text{
+    font-family: "Noticia Text";
+    line-height: 1.5;
+    text-align: justify;
+}
+/********************************************* ESTIMATION */
+
+.estimation {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+}
+
+.estimation2 {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    right: 10px;
+    bottom: 300px;
+}
+
+/* Title */
+
+h5 {
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+/* CSS talk bubble */
+
+.talk-bubble {
+margin: 40px;
+display: inline-block;
+position: relative;
+width:280px;
+height: auto;
+background-color: rgba(237,241,241,0.8);
+}
+
+.talktext{
+    font-family: 'Noticia Text', serif;
+}
+
+.border{
+border: 2px solid rgb(172, 215, 189);
+}
+
+.round {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+
+.tri-right.border.btm-left-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: #666 transparent transparent #666;
+}
+
+.tri-right.btm-left-in:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: lightyellow transparent transparent lightyellow;
+}
+
+/* talk bubble contents */
+
+.talktext {
+    padding: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.talktext p {
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+/* INPUT m carre */
+
+.inputMcarre {
+    width: 40px;
+    ;
+}
+
+/* Button */
+
+.button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 8px;
+    border-radius: 10px;
+    background: rgb(172, 215, 189);
+    color: #4d4d4d;
+}
+
+/* Montant */
+
+#montant {
+    font-weight: bold;
+    color: #ff8a84;
+}
+
+/******************FOOTER************/
+
+.page-footer{
+    font-family: 'Noticia Text', serif;
+    padding-top: 20px;
+    background:#acd7bd;
+    width: 100%;
+}
+
+.container-fluid a, h5 {
+    font-size: 22px;
+}
+
+.mention{
+text-align: center;
+color:grey;
+margin-top: 3em;
+}
+
+.register-newsletter {
+    float: left;
+    padding-left: 55px;
+}
+
+.newsletter{
+    padding-left:57px;
+    padding-bottom:5px;
+    color:grey;
+}
+
+.inp{
+    padding-right: 60px;
+    padding-left: 60px;
+    border:white;
+    border-radius: 2px;
+    background-color: rgba(237,241,241,0.8);
+
+}
+
+.btn-search{
+    border: none;
+    padding: 5px 20px 5px 20px;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 8px;
+    background: grey;
+    color: white;
+    border-radius: 2px;
+}
+
+.reseaux-sociaux i{
+    padding: 15px 10px;
+}
+
+.reseaux-sociaux{
+    display:inline-block;
+    padding-left: 105px;
+}
+
+.border{
+border: 8px solid #666;
+}
+
+.round {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+
+.fa-facebook{
+    color: rgb(27, 27, 95);  
+}
+
+.fa-twitter{
+    color: rgb(44, 190, 209);  
+}
+
+.fa-instagram{
+    color: rgb(209, 32, 171);  
+}
+
+.fa-linkedin-in{
+    color: rgb(30, 92, 184);  
+}
+
+.fa-google-plus-g{
+    color: rgb(209, 27, 3);  
+}
+
+.fa-youtube{
+    color: rgb(175, 1, 1);  
+}
+
+/********************************************* CONNEXION */
+
+.connexion {
+    margin: 100px 535px;
+    font-family: 'Noticia Text', serif;
+}
+
+/* bouton se connecter */
+
+#btnConnect {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 8px;
+    border-radius: 10px;
+    background: grey;
+    color: white;
+}
+
+/********************************************* CONTACT */
+
+#contenuContact {
+    margin: 100px 100px;
+}
+
+/********************************************MENTIONS LEGALES */
+
+
+.card-body {
+    background-color: white;
+    margin: 40px; 
+}
+.jumbotron{
+    background-color: white;
+}
+.container-mentions h2{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0, 128, 0, 0.507);
+    font-family: 'Noticia Text', serif;
+}
+.card-body {
+    background-color: white;
+    border: solid 2px  rgba(0, 128, 0, 0.507);   
+}
+
+/************** FAQ */
+
+.cardfaq{
+    background-color: white;
+    margin: 50px 200px 100px 200px;
+    border:none;
+    font-family: 'Noticia Text', serif;
+}
+
+.titlefaq {
+    font-family: 'Noticia Text', serif;
+    font-size:50px;
+    text-align:center;
+    padding:40px;
+}
+
+#questionsfaq {
+    font-size: 22px;
+    color: rgba(0, 128, 0, 0.507);
+    vertical-align: middle;
+}
+
+.btn-link{
+    font-family: 'Noticia Text', serif;
+
+}
+
+.textFaq {
+    font-family: 'Noticia Text', serif;
+    font-size: 18px;
+}
+
+/********************************************* INSCRIPTION */
+
+#contenuSubs {
+    margin: 100px 535px;
+    font-family: 'Noticia Text', serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#btnSubs{
+    display:flex;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding:5px 30px 5px 30px;
+    background: grey;
+    color: white;
+    border-radius: 2px;
+    font-weight:normal;
+    margin-left:35%;
+}
+.subsTitle{
+    font-size:50px;
+    color: #4d4d4d;
+    text-align:center;
+    padding-top: -5px;
+    padding-bottom: 40px;
+}
+/********************************************* FORMULAIRE DIAGNOSTIQUE */
+.startDiag{
+    font-size: 30px;
+    font-family:  'Noticia Text', serif;
+    font-weight: lighter;
+    color: #4d4d4d;
+}
+#connexionForm{
+    text-align: center;
+}
+#first, #second, #third, #valid {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*form styles*/
+
+#msform {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+#msform label {
+    color: rgb(25, 128, 51);
+}
+
+#msform input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*buttons*/
+
+#co .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+/*headings*/
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+
+#progressbar {
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 10%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    
+    
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: white;
+    border-radius: 36px;
+    margin: 0 auto 5px auto;
+    box-shadow: 0px 2px 2px rgba(44, 20, 109, 0.2);;
+}
+
+/*progressbar connectors*/
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(177, 168, 168);
+    position: absolute;
+    left: -50%;
+    top: 15px;
+    z-index: -1;
+    /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+#progressbar li.done:before {
+    background: #27AE60;
+    color: white;
+    content: "\2713 ";
+    box-shadow: 0px 2px 2px rgba(44, 20, 109, 0.2);;
+}
+
+#progressbar li.white:before {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/*marking active/completed steps green*/
+
+/*The number of the step and the connector before it = green*/
+
+#progressbar li.active:before/* , #progressbar li.active:after */ {
+    background: rgb(156, 212, 250);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    box-shadow: 0px 2px 2px rgba(44, 20, 109, 0.2);;
+
+}
+
+#second, #third {
+    display: none;
+}
+
+#lieuImage {
+    display: flex;
+    align-items: flex-start;
+}
+
+  .progress .circle.active .label {
+    color: #FFF;
+    background: #93dbf9;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+    width: 40px;
+    height: 40px;
+    margin: -1px 10px 0px -2px;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  .progress .circle.active .title {
+    color: #0c95be;
+  }
+  
+
+  
+/************** FAQ */
+#msform .form-check-label {
+    display: none;
+}
+
+#msform .form-check input {
+    display: none;
+}
+#msform input:checked+label>img {
+    background-color: blue;
+    color: white;
+}
+#msform label>img {
+    height: 70%;
+    width: 70%;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+    transition: all 0.4s ease-out;
+}
+
+#msform input::placeholder{
+    text-align: center;
+}
+
+#msform label>img:hover {
+    background-color: #27AE60;
+    color: white;
+    width: 75%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+//bootstrap browse text
+.custom-file-input~.custom-file-label::after {
+    content: "Envoyer";
+}
+
+.custom-file-input:hover {
+    cursor: pointer;
+}
+
+//Paiement
+.paiement {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid;
+    background: #acd7bd;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.paiement input {
+    width: 10%;
+}
+
+.modePaie img {
+    width: 65%;
+    height: 65%;
+}
+
+.termes {
+    margin-left: 70px;
+    width: 50px;
+}
+
+.buttonPaye {
+    border-radius: 5px;
+    background-color: #ff8a84;
+    width: 100px;
+    height: 40px;
+    padding: 3px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+}
+
+.co {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+//Fin de formulaire diagnostic
+
+/********************************************* INFO COMPTE USER */
+.diag{
+    display: flex;
+    align-items: flex-start;
+    width: 700px;
+
+}
+.titre{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+.card-title{
+    font-size: 25px;
+    color: rgba(0, 128, 0, 0.507);
+    text-align: center;
+    padding: 15px;
+}
+
+.fa-eye{
+    background-color: grey;
+    width: 21px;
+}
+
+label{
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 128, 0, 0.507);
+}
+
+.btn-dark{
+    margin: 15px;
+    padding: 15px;
+}
+
+.btn-dark{
+    margin: 15px;
+    padding: 15px;
+}
+
+.btn-dark{
+    margin: 15px;
+    padding: 15px;
+}
+
+.btn-dark{
+    margin: 15px;
+    padding: 15px;
+}
+
+.table-bordered{
+    text-decoration: solid;
+    color: rgba(0, 128, 0, 0.507);
+}
+
+th{
+    height: 18px;
+    font-size: 18px;
+    color: rgba(0, 128, 0, 0.507);
+    padding: 8px;
+    text-align: center;
+}
+.error-template{
+    margin: auto;
+}
+/********************************* BLOC ADMIN ***********************/
+#blocTgestion{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#load{
+    position: relative;
+    top:25px;
+    right:20px;
+}
+.blocAdmin{
+    margin:50px 0 50px 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 1000px;
+}
+
+.imgdiagnostic{
+    width:50px;
+}
+
+.btnParcourir{
+    width:120px;
+}
+
+#blocResultat{
+    width:80%;
+}

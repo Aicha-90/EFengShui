@@ -1,0 +1,24 @@
+{# templates/bundles/TwigBundle/Exception/error404.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="errorPage">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+                <h2>
+                    404 Not Found</h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                    <a href="{{ path('accueil') }}" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                        Page d'accueil </a><a href="{{ path('contact') }}" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

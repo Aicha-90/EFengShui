@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}e-Feng Shui
+{% endblock %}
+
+{% block body %}
+
+
+	<!-- multistep form -->
+	<div>
+		<p class="startDiag">Commencez votre diagnostic</p>
+		<ul id="progressbar">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+	<div class="co">
+		<form method="post" id="co" action="{{ path('app_login') }}">
+			<p class="startDiag" id="connexionForm">Veuillez vous connecter afin de remplir votre demande.</p>
+			<label for="inputEmail">Email</label>
+			<input type="email" name="email" id="inputEmail" class="form-control" required autofocus>
+			<label for="inputPassword">Mot de passe</label>
+			<input type="password" name="password" id="inputPassword" class="form-control" required>
+			<input type="submit" name="next" class="next action-button" onclick="location.href='#';" value="Next">
+			<input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+			<div>
+				<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">S'inscrire</button>
+			</div>
+		</form>
+	</div>
+
+	<div id="formText">
+		<form method="POST" action="" id="msform" name="msform" enctype="multipart/form-data">
+			<fieldset id="first">
+				{{ form_start(formDemande)}}
+				{{ form_row(formDemande.titre_diagnostic)}}
+				<b class="form-text text-danger" id="titreError"></b>
+				{{ form_row(formDemande.nb_m_carre)}}
+				<b class="form-text text-danger" id="mCarreError"></b>
+				{{ form_row(formDemande.lieu)}}
+				<div>
+					<label>Pour quel type de lieu voulez-vous faire votre diagnostic Feng Shui?</label>
+				</div>
+				<div id="lieuImage">
+					<label class="label_image" for="criteres_lieu_0">Bureau<img src="/img/img153.png" alt=""></label>
+					<label class="label_image" for="criteres_lieu_1">Domicile<img src="/img/img154.png" alt=""></label>
+					<b class="form-text text-danger" id="lieuError"></b>
+				</div>
+				{{ form_row(formDemande.annee_constr)}}
+				<b class="form-text text-danger" id="anneeError"></b>
+				<input type="button" name="next" id="next-1" class="next action-button" onclick="location.href='#';" value="Next">
+			</fieldset>
+
+			<fieldset id="second">
+				{{ form_row(formDemande.plan_lieu)}}
+				<b class="form-text text-danger" id="planError"></b>
+				{{ form_row(formDemande.photo_lieu)}}
+				<b class="form-text text-danger" id="photoError"></b>
+				{{ form_row(formDemande.orientation)}}
+				<b class="form-text text-danger" id="orientationError"></b>
+				<input type="button" name="previous" id="prev-2" class="previous action-button" onclick="location.href='#';" value="Previous">
+				<input type="button" name="next" id="next-2" class="next action-button" onclick="location.href='#';" value="Next">
+			</fieldset>
+
+			<fieldset id="third">
+				<div><p class="alert alert-dark" role="alert">Le montant à payer est de <span class="euros">280€</span>.</p>				</div>
+				<div class="paiement">
+					<h2>Mode de paiement</h2>
+					<p>Toutes les transactions sont sécurisées et cryptées</p>
+					<div class="modePaie">
+						<img src="/img/img221.png" atl="logo paiements">
+					</div>
+					<form method="POST">
+						<div class="input-group input-group-sm mb-3">
+							<input name="numeros" placeholder="Numéros de la carte" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"><label>
+								<i class="fas fa-credit-card"></i></label>
+						</div>
+						<div>
+							<input type="text" name="titulaire" placeholder="Nom du titulaire" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></div>
+						<div class="input-group input-group-sm mb-3">
+							<input type="text" name="expiration" placeholder="MM/AA" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+							<input name="cvv" placeholder="CVV" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"><label>
+								<i class="fas fa-question-circle"></i>
+							</label>
+						</div>
+						<div class="input-group input-group-sm mb-3" id="conditions">
+							<input type="checkbox" name="termes" class="termes">
+							<label for="termes">Termes et conditions</label>
+						</div>
+					</form>
+					{{ form_row(formDemande.suivant) }}
+					{{ form_row(formDemande._token) }}
+					{{ form_end(formDemande) }}
+				</div>
+				<input type="button" name="previous" id="prev-3" class="previous action-button" onclick="location.href='#';" value="Previous">
+			</fieldset>
+			<fieldset id="valid">
+				<p class="alert alert-success" role="alert">Votre paiement a bien été enregistré. Vous recevrez votre diagnostic sous un délais de 7 jours ouvrés.</p>
+			</fieldset>
+		</form>
+	</div>
+{% endblock %}

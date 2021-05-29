@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} e-Feng Shui {% endblock %}
+
+{% block body %}
+
+<h1>{% trans %}List of users{% endtrans %}</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>{% trans %}id{% endtrans %}</th><th>{% trans %}Name{% endtrans %}</th><th>{% trans %}Firstname{% endtrans %}</th><th>{% trans %}E-mail{% endtrans %}</th><th>{% trans %}Roles{% endtrans %}</th><th>{% trans %}Password{% endtrans %}</th>
+                <th>{% trans %}Actions{% endtrans %}</th>
+            </tr>
+        </thead>
+        {% for user in liste %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>{{ user.nom }}</td>
+                <td>{{ user.prenom }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.roles|join(" , ") }}</td>
+                <td>{{ user.password}}</td>
+                <td><a href=""> <i class="fas fa-edit"></i> 
+                <a href=""><i class="fa fa-trash"></i></a></td>   
+            </tr>
+        {% endfor %}
+        <tfoot>
+        </tfoot>
+    </table>
+{% endblock %}
+

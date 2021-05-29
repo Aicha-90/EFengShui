@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="xoRFHIh" resname="Your message has been sent, we will answer you as soon as possible.">
+        <source>Your message has been sent, we will answer you as soon as possible.</source>
+        <target>Votre message a été envoyé, nous vous répondrons dans les plus brefs délais.</target>
+      </trans-unit>
+      <trans-unit id="0IIyAov" resname="Your request has been registered.">
+        <source>Your request has been registered.</source>
+        <target>Votre demande a été enregistrée.</target>
+      </trans-unit>
+      <trans-unit id="ohkIYMt" resname="The form is not valid.">
+        <source>The form is not valid.</source>
+        <target>Le formulaire n'est pas valide.</target>
+      </trans-unit>
+      <trans-unit id="zOsdb48" resname="Start your Diagnostic">
+        <source>Start your Diagnostic</source>
+        <target>Commencez votre diagnostique</target>
+      </trans-unit>
+      <trans-unit id="6H3R6rY" resname="Feng Shui expertise">
+        <source>Feng Shui expertise</source>
+        <target>L'expertise Feng Shui</target>
+      </trans-unit>
+      <trans-unit id="PRjrZIU" resname="Feng Shui is an ancestral Chinese art meaning wind for Feng and water for Shui, based on the harmonization of the space and the individual who lives there. The intervention of a specialist, in our case Monica, expert for more than 5 years, called ''Master'', is necessary to practice the energetic regulation of the place. In order to make a diagnosis, she starts by taking measurements of each of the house or office. Analysis by mathematical calculations, gives a report and then accompaniment. In order to finish it ends with the installation, that is to say the change of the elements of the room by her care or by the client himself.          We are in an era where the         new technology is and will be increasingly used. The implementation of an artificial intelligence (chatbot) will on the one hand allow us to have a quick access to information necessary for the expertise. But also to give more precise and faster advice.">
+        <source>Feng Shui is an ancestral Chinese art meaning wind for Feng and water for Shui, based on the harmonization of the space and the individual who lives there. The intervention of a specialist, in our case Monica, expert for more than 5 years, called ''Master'', is necessary to practice the energetic regulation of the place. In order to make a diagnosis, she starts by taking measurements of each of the house or office. Analysis by mathematical calculations, gives a report and then accompaniment. In order to finish it ends with the installation, that is to say the change of the elements of the room by her care or by the client himself.          We are in an era where the         new technology is and will be increasingly used. The implementation of an artificial intelligence (chatbot) will on the one hand allow us to have a quick access to information necessary for the expertise. But also to give more precise and faster advice.</source>
+        <target>Le Feng Shui, c’est un art ancestral chinois signifiant vent pour Feng et eau pour Shui, basé sur l'harmonisation de l'espace et de l’individu qui y vit. L'intervention d'un spécialiste, dans notre cas Monica, experte depuis plus de 5 ans, appelée ‘‘Maître’, est nécessaire pour pratiquer la régulation énergétique des lieux. Afin de rendre un diagnostic, elle commence par la prise de mesure de chaque de la maison ou du bureau. Analyse par des calculs mathématiques, remet un rapport puis l'accompagnement. Afin elle termine par la mise en place c'est-à-dire le changement des éléments de la pièce par ses soins ou par le client lui-même. 
+        Nous sommes dans une ère où la
+        nouvelle technologie est et sera de plus en plus utilisée. La mise en place d’une intelligence artificielle (chatbot) pourra d'une part nous permettra d'avoir une accessibilité rapide à des informations nécessaires pour l’ expertise. Mais également donner des conseils plus précis et plus rapide.</target>
+      </trans-unit>
+      <trans-unit id="g50pgDw" resname="Price estimate?">
+        <source>Price estimate?</source>
+        <target>Estimation de prix?</target>
+      </trans-unit>
+      <trans-unit id="LcVHkI2" resname="Enter the number of m² of your surface, for which you want to make the Feng Shui expertise.">
+        <source>Enter the number of m² of your surface, for which you want to make the Feng Shui expertise.</source>
+        <target>Saisissez le nombre de m² de votre surface, pour lequelle vous voulez faire l'expertise Feng Shui.</target>
+      </trans-unit>
+      <trans-unit id="ISHMFa_" resname="Calculate">
+        <source>Calculate</source>
+        <target>Calculer</target>
+      </trans-unit>
+      <trans-unit id="XNbbH9_" resname="Your estimate is:">
+        <source>Your estimate is:</source>
+        <target>Votre Estimation est de:</target>
+      </trans-unit>
+      <trans-unit id="SgIkcQK" resname="Online Feng Shui Diagnostic Platform">
+        <source>Online Feng Shui Diagnostic Platform</source>
+        <target>Plateforme de diagnostique Feng Shui en ligne</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="zA442px" resname="Subscribe">
+        <source>Subscribe</source>
+        <target>S'inscrire</target>
+      </trans-unit>
+      <trans-unit id="tTGBpNh" resname="My account">
+        <source>My account</source>
+        <target>Mon Compte</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="i0m64ZB" resname="List of">
+        <source>List of</source>
+        <target>Liste des</target>
+      </trans-unit>
+      <trans-unit id="JSF9p6z" resname="List of requests">
+        <source>List of requests</source>
+        <target>Liste des demandes</target>
+      </trans-unit>
+      <trans-unit id="yunPGwl" resname="List of diagnostics">
+        <source>List of diagnostics</source>
+        <target>Liste des diagnostiques</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="icWhdy1" resname="Diagnostique">
+        <source>Diagnostique</source>
+        <target>Diagnostic</target>
+      </trans-unit>
+      <trans-unit id="AEGvGpQ" resname="Feng Shui">
+        <source>Feng Shui</source>
+        <target>Le Feng Shui</target>
+      </trans-unit>
+      <trans-unit id="QviQikb" resname="F.A.Q">
+        <source>F.A.Q</source>
+        <target>F.A.Q</target>
+      </trans-unit>
+      <trans-unit id="aYColIW" resname="Legal notices">
+        <source>Legal notices</source>
+        <target>Mentions légales</target>
+      </trans-unit>
+      <trans-unit id="R6rzG4P" resname="Contact us">
+        <source>Contact us</source>
+        <target>Contactez-nous</target>
+      </trans-unit>
+      <trans-unit id="sdrPFWb" resname="&gt;Newsletter">
+        <source>&gt;Newsletter</source>
+        <target><![CDATA[>Newsletter]]></target>
+      </trans-unit>
+      <trans-unit id="9vRoj.I" resname="Registration">
+        <source>Registration</source>
+        <target>Inscription</target>
+      </trans-unit>
+      <trans-unit id="JSCgulZ" resname="Contact form">
+        <source>Contact form</source>
+        <target>Formulaire de contact</target>
+      </trans-unit>
+      <trans-unit id="NGbG1fE" resname="Last and first name">
+        <source>Last and first name</source>
+        <target>Nom et prénom</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="YoWaV4D" resname="&gt;Objet">
+        <source>&gt;Objet</source>
+        <target><![CDATA[>Objet>]]></target>
+      </trans-unit>
+      <trans-unit id="L3dmip3" resname="Message">
+        <source>Message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="JajUVGn" resname="Step 1">
+        <source>Step 1</source>
+        <target>Etape 1</target>
+      </trans-unit>
+      <trans-unit id="ZJR0r0G" resname="Step 2">
+        <source>Step 2</source>
+        <target>Etape 2</target>
+      </trans-unit>
+      <trans-unit id="OUw23cg" resname="Step 3">
+        <source>Step 3</source>
+        <target>Etape 3</target>
+      </trans-unit>
+      <trans-unit id="0H7IfCC" resname="1- From a distance, how does it work?">
+        <source>1- From a distance, how does it work?</source>
+        <target>1- A distance, comment ça marche ?</target>
+      </trans-unit>
+      <trans-unit id="EibjTxz" resname="I would like to draw your attention to the fact that a traditional feng shui analysis requires a significant investment of time;             1.you communicate to us the criteria of the place concerned;             2.The Feng-Shui Master performs the following steps:                                - Topographical analysis                 - Feng-shui diagnosis and assessment (indoor - outdoor)                 - Preparatory work on your plans                 - Report writing                                       3.you receive your expertise by mail             4. you put into practice this valuable information that will change your life ☺">
+        <source>I would like to draw your attention to the fact that a traditional feng shui analysis requires a significant investment of time;             1.you communicate to us the criteria of the place concerned;             2.The Feng-Shui Master performs the following steps:                                - Topographical analysis                 - Feng-shui diagnosis and assessment (indoor - outdoor)                 - Preparatory work on your plans                 - Report writing                                       3.you receive your expertise by mail             4. you put into practice this valuable information that will change your life ☺</source>
+        <target><![CDATA[J’attire votre attention sur le fait qu’une analyse feng-shui traditionnel demande un investissement en temps non négligeable           1.Vous nous communiquer les critères du lieu concerné           2.Le Maître Feng-Shui effectue les étapes suivantes :                              - Analyse topographique                - Diagnostic et bilan Feng-shui (intérieur – extérieur)               - Travail préparatoire sur vos plans                - Rédaction de rapport                                     3.Vous recevez votre expertise par mail           4.Vous mettez en pratique ces précieuses informations qui vous changeront la vie ☺>]]></target>
+      </trans-unit>
+      <trans-unit id="e2yG1fd" resname="2- How long does the analysis take?">
+        <source>2- How long does the analysis take?</source>
+        <target>2- Combien de temps prend l'analyse ?</target>
+      </trans-unit>
+      <trans-unit id="48a5u1b" resname="You'll receive the report within a week.           Your remote feng shui analysis report is sent to you by email as soon as it is written.           After reading your report, you will be able to implement all the Feng-shui advice given.           This complete analysis report will give you the Feng Shui techniques to intensify the beneficial energies. It also gathers remedies to minimize the harmful energies.           Decoration recommendations will allow you to enhance the Feng Shui potential of your living space. These recommendations include the shapes to be preferred, the materials or the colours.">
+        <source>You'll receive the report within a week.           Your remote feng shui analysis report is sent to you by email as soon as it is written.           After reading your report, you will be able to implement all the Feng-shui advice given.           This complete analysis report will give you the Feng Shui techniques to intensify the beneficial energies. It also gathers remedies to minimize the harmful energies.           Decoration recommendations will allow you to enhance the Feng Shui potential of your living space. These recommendations include the shapes to be preferred, the materials or the colours.</source>
+        <target><![CDATA[Vous recevrez le rapport sous une semaine
+          Votre rapport d’analyse feng shui à distance vous est envoyé par mail dès rédaction
+          A la suite de la lecture de votre rapport, vous pourrez mettre en place tous les conseils Feng-shui donnés
+          Ce rapport complet d’analyse vous donnera les techniques Feng Shui pour intensifier les énergies bénéfiques. Il rassemble aussi des remèdes pour minimiser les énergies néfastes
+          Des recommandations de décoration vous permettront de renforcer le potentiel Feng-shui de votre lieu de vie. Ces conseils comprennent les formes à privilégier, les matières ou les couleurs>]]></target>
+      </trans-unit>
+      <trans-unit id="QHrBs5X" resname="3- When is the best time to use feng shui?">
+        <source>3- When is the best time to use feng shui?</source>
+        <target>3- Quel est le meilleur moment pour faire appel au feng-shui ?</target>
+      </trans-unit>
+      <trans-unit id="a8zcVxL" resname="Feng shui always adapts to your situation so it's never too late, never too early!           However, there are times when it's better to do so:           - Buying a land, a house or an apartment            - Construction of a property           - Add a water location           - Moving out.           - Torque problems           - Difficulties finding a job           - Health concerns.           - Improve your life                        The same advice is given to professionals and companies.">
+        <source>Feng shui always adapts to your situation so it's never too late, never too early!           However, there are times when it's better to do so:           - Buying a land, a house or an apartment            - Construction of a property           - Add a water location           - Moving out.           - Torque problems           - Difficulties finding a job           - Health concerns.           - Improve your life                        The same advice is given to professionals and companies.</source>
+        <target><![CDATA[Le feng shui s’adapte toujours à votre situation donc il n’est jamais trop tard, ni trop tôt !
+          Toutefois, certains moments y sont plus propices :
+          -	Achat un terrain, une maison ou un appartement 
+          -	Construction d’un bien
+          -	Ajouter un emplacement d’eau
+          -	Déménagement
+          -	Problèmes de couple
+          -	Difficultés à trouver un emploi
+          -	Soucis de santé
+          -	Améliorer votre vie
+            
+          Les mêmes conseils sont attribués aux professionnels et aux entreprises>]]></target>
+      </trans-unit>
+      <trans-unit id="AhesOpy" resname="4- How much does it cost ?">
+        <source>4- How much does it cost ?</source>
+        <target>4- Combien ça coûte ?</target>
+      </trans-unit>
+      <trans-unit id="ohX9mup" resname="A basic fee of 200€ is required for the preparation and writing of the report of your feng shui analysis.           To this rate will be added the rate for the analysis itself, which depends on :.           -Number of parts to be analyzed           -Number of levels (or floors)           -The exteriors (garden, terrace, balcony, park, etc.)           -Specific requests (e.g. swimming pool installation)">
+        <source>A basic fee of 200€ is required for the preparation and writing of the report of your feng shui analysis.           To this rate will be added the rate for the analysis itself, which depends on :.           -Number of parts to be analyzed           -Number of levels (or floors)           -The exteriors (garden, terrace, balcony, park, etc.)           -Specific requests (e.g. swimming pool installation)</source>
+        <target><![CDATA[Un tarif de base de 200€ est à prévoir pour la préparation et la rédaction du rapport de votre analyse feng shui          A ce tarif viendra s’ajouter la tarification de l’analyse à proprement parler qui dépend de :          -Nombre de pièces à analyser          -Nombre de niveaux  (ou étages)          -Les extérieurs (jardin, terrasse, balcon, parc, etc.)          -Demandes spécifiques (implantation piscine par exemple)>]]></target>
+      </trans-unit>
+      <trans-unit id="OtsySM6" resname="5- Can feng shui be used to build a house ?">
+        <source>5- Can feng shui be used to build a house ?</source>
+        <target>5- Peut-on utiliser le feng-shui pour la construction d'une maison ?</target>
+      </trans-unit>
+      <trans-unit id="MuwWtG_" resname="The objective of the work of the Feng-shui expert will be to study all the possibilities to select THE BEST !           How do you position your front door?           How to distribute the rooms in your home?           What about the exteriors? How to make the most of them?           If you build, you have the chance to decide that potential.           You have the power to decide which elements impact in terms of Feng Shui like your door, your star grid or your room.           You must admit it would be a shame not to do so.">
+        <source>The objective of the work of the Feng-shui expert will be to study all the possibilities to select THE BEST !           How do you position your front door?           How to distribute the rooms in your home?           What about the exteriors? How to make the most of them?           If you build, you have the chance to decide that potential.           You have the power to decide which elements impact in terms of Feng Shui like your door, your star grid or your room.           You must admit it would be a shame not to do so.</source>
+        <target>L’objectif du travail de l’expert Feng-shui va être d’étudier toutes les possibilités pour sélectionner LA MEILLEURE !          Comment positionner votre porte d’entrée ?          Comment répartir les pièces de votre intérieur ?          Et les  extérieurs ? Comment en tirer le meilleur parti ?          Si vous construisez, vous avez la chance de pouvoir « décider » de ce potentiel          Vous avez le pouvoir de décider des éléments impactant en termes de Feng-shui comme votre porte, votre grille d’étoiles ou encore votre chambre          Avouez que ce serait dommage de s’en priver !</target>
+      </trans-unit>
+      <trans-unit id="8gy_JOK" resname="6- Is there such a thing as feng shui for professionals ?">
+        <source>6- Is there such a thing as feng shui for professionals ?</source>
+        <target>6- Le feng-shui pour les professionnels, ça existe ?</target>
+      </trans-unit>
+      <trans-unit id="RZ5Q2YO" resname="The places we work in, the way they're organized, and         and our vitality have a strong influence on our professional success, our vitality,          our interpersonal communication and personal development.         Interiority and interiority are in permanent interaction !          A harmonious and balanced work space according to the precepts of Feng Shui          traditional not only reduces stress, de-motivation, and the          internal conflicts, but also to increase vitality, creativity and performance          of each of the collaborators.">
+        <source>The places we work in, the way they're organized, and         and our vitality have a strong influence on our professional success, our vitality,          our interpersonal communication and personal development.         Interiority and interiority are in permanent interaction !          A harmonious and balanced work space according to the precepts of Feng Shui          traditional not only reduces stress, de-motivation, and the          internal conflicts, but also to increase vitality, creativity and performance          of each of the collaborators.</source>
+        <target><![CDATA[Les lieux dans lesquels nous travaillons, la manière dont ils sont organisés et 
+        aménagés, influencent fortement notre réussite professionnelle, notre vitalité, 
+        notre communication interpersonnelle ainsi que notre développement personnel
+        Intérieur et intériorité sont en permanente interaction !
+
+        Un espace de travail harmonieux et équilibré selon les préceptes du Feng Shui 
+        traditionnel permet non seulement de réduire le stress, la démotivation et les 
+        conflits internes, mais aussi d’augmenter la vitalité, la créativité et la performance 
+        de chacun des collaborateurs>]]></target>
+      </trans-unit>
+      <trans-unit id="ePmuch_" resname="MANAGEMENT">
+        <source>MANAGEMENT</source>
+        <target>GESTION</target>
+      </trans-unit>
+      <trans-unit id="8FICfSY" resname="Customer List">
+        <source>Customer List</source>
+        <target>Liste des Clients</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="cC75Ie0" resname="First name">
+        <source>First name</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="JVDZYuU" resname="E-mail">
+        <source>E-mail</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit id="wlM3BVR" resname="Roles">
+        <source>Roles</source>
+        <target>Rôles</target>
+      </trans-unit>
+      <trans-unit id=".4BZ3Gd" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="r9.NSmr" resname="My informations">
+        <source>My informations</source>
+        <target>Mes informations</target>
+      </trans-unit>
+      <trans-unit id="EhVukhv" resname="Id">
+        <source>Id</source>
+        <target>Id</target>
+      </trans-unit>
+      <trans-unit id="P3DAEyj" resname="My diagnostics">
+        <source>My diagnostics</source>
+        <target>Mes diagnostiques</target>
+      </trans-unit>
+      <trans-unit id="mcQKtAW" resname="Date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="JytXBPp" resname="Payment status">
+        <source>Payment status</source>
+        <target>Statut paiement</target>
+      </trans-unit>
+      <trans-unit id="k8kchR5" resname="Price">
+        <source>Price</source>
+        <target>Prix</target>
+      </trans-unit>
+      <trans-unit id="IVnIl4." resname="Expertise">
+        <source>Expertise</source>
+        <target>Expertise</target>
+      </trans-unit>
+      <trans-unit id="OXF83eY" resname="Expertise status">
+        <source>Expertise status</source>
+        <target>Statut expertise</target>
+      </trans-unit>
+      <trans-unit id="yPEPUwI" resname="Modify a user">
+        <source>Modify a user</source>
+        <target>Modifier un utilisateur</target>
+      </trans-unit>
+      <trans-unit id="SMiuXZy" resname="&gt;Password">
+        <source>&gt;Password</source>
+        <target><![CDATA[>password>]]></target>
+      </trans-unit>
+      <trans-unit id="zD4ouTI" resname="Sign up !">
+        <source>Sign up !</source>
+        <target>Inscrivez-vous !</target>
+      </trans-unit>
+      <trans-unit id="ZxRW8W7" resname="Sign me up">
+        <source>Sign me up</source>
+        <target>M'inscrire</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>Password</target>
+      </trans-unit>
+      <trans-unit id="2U6vaUO" resname="Modify">
+        <source>Modify</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="yaFfUUQ" resname="Feng Shui is an ancestral Chinese art meaning wind for Feng and water for Shui, based on the harmonization of the space and the individual who lives there. The intervention of a specialist, in our case Monica, expert for more than 5 years, called ''Master'', is necessary to practice the energetic regulation of the place. In order to make a diagnosis, she starts by taking measurements of each of the house or office. Analysis by mathematical calculations, gives a report and then accompaniment. In order to finish it ends with the installation, that is to say the change of the elements of the room by her care or by the client himself. &#10;        We are in an era where the&#10;        new technology is and will be increasingly used. The implementation of an artificial intelligence (chatbot) will on the one hand allow us to have a quick access to information necessary for the expertise. But also to give more precise and faster advice.">
+        <source>Feng Shui is an ancestral Chinese art meaning wind for Feng and water for Shui, based on the harmonization of the space and the individual who lives there. The intervention of a specialist, in our case Monica, expert for more than 5 years, called ''Master'', is necessary to practice the energetic regulation of the place. In order to make a diagnosis, she starts by taking measurements of each of the house or office. Analysis by mathematical calculations, gives a report and then accompaniment. In order to finish it ends with the installation, that is to say the change of the elements of the room by her care or by the client himself. 
+        We are in an era where the
+        new technology is and will be increasingly used. The implementation of an artificial intelligence (chatbot) will on the one hand allow us to have a quick access to information necessary for the expertise. But also to give more precise and faster advice.</source>
+        <target>Le Feng Shui est un art chinois ancestral qui signifie vent pour le Feng et eau pour le Shui, basé sur l'harmonisation de l'espace et de l'individu qui y vit. L'intervention d'un spécialiste, dans notre cas Monica, expert depuis plus de 5 ans, appelé ''Maître'', est nécessaire pour pratiquer la régulation énergétique du lieu. Afin de faire un diagnostic, elle commence par prendre des mesures de chacune des maisons ou bureaux. L'analyse par calculs mathématiques, donne un rapport puis un accompagnement. Pour finir, elle termine par l'installation, c'est-à-dire le changement des éléments de la pièce par ses soins ou par le client lui-même. 
+        Nous sommes à une époque où la
+        les nouvelles technologies sont et seront de plus en plus utilisées. La mise en place d'une intelligence artificielle (chatbot) permettra d'une part d'avoir un accès rapide aux informations nécessaires à l'expertise. Mais aussi de donner des conseils plus précis et plus rapides.</target>
+      </trans-unit>
+      <trans-unit id="uhGL9.y" resname="English">
+        <source>English</source>
+        <target>Anglais</target>
+      </trans-unit>
+      <trans-unit id="dFgZn_l" resname="French">
+        <source>French</source>
+        <target>Français</target>
+      </trans-unit>
+      <trans-unit id="sfqHipi" resname="Diagnostic">
+        <source>Diagnostic</source>
+        <target>Diagnostique</target>
+      </trans-unit>
+      <trans-unit id="3Z.D8h_" resname="&gt;Subject">
+        <source>&gt;Subject</source>
+        <target><![CDATA[>Objet]]></target>
+      </trans-unit>
+      <trans-unit id="nu9y55c" resname="I would like to draw your attention to the fact that a traditional feng shui analysis requires a significant investment of time;&#10;            1.you communicate to us the criteria of the place concerned;&#10;            2.The Feng-Shui Master performs the following steps: ...lt;br;br;ong;&#10;              &#10;                - Topographical analysis&amp;lt;br&amp;gt;&#10;                - Feng-shui diagnosis and assessment (indoor - outdoor)&#10;                - Preparatory work on your plans&amp;lt;br&amp;gt;&#10;                - Report writing&amp;lt;br&amp;gt; Report writing&amp;lt;br&amp;gt;&#10;                         &#10;            3.you receive your expertise by mail&amp;lt;br&amp;gt;&#10;            4. you put into practice this valuable information that will change your life ☺">
+        <source>I would like to draw your attention to the fact that a traditional feng shui analysis requires a significant investment of time;
+            1.you communicate to us the criteria of the place concerned;
+            2.The Feng-Shui Master performs the following steps: ...lt;br;br;ong;
+              
+                - Topographical analysis&amp;lt;br&amp;gt;
+                - Feng-shui diagnosis and assessment (indoor - outdoor)
+                - Preparatory work on your plans&amp;lt;br&amp;gt;
+                - Report writing&amp;lt;br&amp;gt; Report writing&amp;lt;br&amp;gt;
+                         
+            3.you receive your expertise by mail&amp;lt;br&amp;gt;
+            4. you put into practice this valuable information that will change your life ☺</source>
+        <target><![CDATA[Je voudrais attirer votre attention sur le fait qu'une analyse feng shui traditionnelle nécessite un investissement en temps important ;
+            1.vous nous communiquez les critères du lieu concerné ;
+            2.le Maître de Feng-Shui effectue les étapes suivantes : ...lt;br;br;ong ;
+              
+                - Analyse topographique&lt;br;ong ;
+                - Diagnostic et évaluation du Feng-Shui (intérieur - extérieur)
+                - Travaux préparatoires de vos plans&lt;br&gt ;
+                - Rédaction de rapports&lt;br&gt ; Rédaction de rapports&lt;br&gt ;
+                         
+            3.vous recevez votre expertise par courrier&lt;br&gt ;
+            4. vous mettez en pratique ces précieuses informations qui changeront votre vie ☺]]></target>
+      </trans-unit>
+      <trans-unit id="f4_004A" resname="You'll receive the report within a week.&#10;          Your remote feng shui analysis report is sent to you by email as soon as it is written.&#10;          After reading your report, you will be able to implement all the Feng-shui advice given.&lt;br&gt;&#10;          This complete analysis report will give you the Feng Shui techniques to intensify the beneficial energies. It also gathers remedies to minimize the harmful energies.&lt;br&gt;&#10;          Decoration recommendations will allow you to enhance the Feng Shui potential of your living space. These recommendations include the shapes to be preferred, the materials or the colours.&lt;br&gt;">
+        <source>You'll receive the report within a week.
+          Your remote feng shui analysis report is sent to you by email as soon as it is written.
+          After reading your report, you will be able to implement all the Feng-shui advice given.&lt;br&gt;
+          This complete analysis report will give you the Feng Shui techniques to intensify the beneficial energies. It also gathers remedies to minimize the harmful energies.&lt;br&gt;
+          Decoration recommendations will allow you to enhance the Feng Shui potential of your living space. These recommendations include the shapes to be preferred, the materials or the colours.&lt;br&gt;</source>
+        <target><![CDATA[Vous recevrez le rapport dans une semaine.
+          Votre rapport d'analyse feng shui à distance vous est envoyé par courrier électronique dès qu'il est rédigé.
+          Après avoir lu votre rapport, vous pourrez mettre en œuvre tous les conseils de Feng-shui donnés.<br>
+          Ce rapport d'analyse complet vous donnera les techniques de Feng Shui pour intensifier les énergies bénéfiques. Il rassemble également des remèdes pour minimiser les énergies nocives.
+          Les recommandations de décoration vous permettront d'améliorer le potentiel Feng Shui de votre espace de vie. Ces recommandations comprennent les formes à privilégier, les matériaux ou les couleurs.]]></target>
+      </trans-unit>
+      <trans-unit id="DRmfwhz" resname="Feng shui always adapts to your situation so it's never too late, never too early!&#10;          However, there are times when it's better to do so:&lt;br&gt;&lt;br&gt;&#10;          - Buying a land, a house or an apartment &lt;br&gt;&#10;          - Construction of a property&lt;br&gt;&#10;          - Add a water location&lt;br&gt;&#10;          - Moving out.&#10;          - Torque problems&lt;br&gt;&#10;          - Difficulties finding a job&lt;br&gt;&#10;          - Health concerns.&#10;          - Improve your life&lt;br&gt;&#10;            &#10;          The same advice is given to professionals and companies.&lt;br&gt;&lt;br&gt;">
+        <source>Feng shui always adapts to your situation so it's never too late, never too early!
+          However, there are times when it's better to do so:&lt;br&gt;&lt;br&gt;
+          - Buying a land, a house or an apartment &lt;br&gt;
+          - Construction of a property&lt;br&gt;
+          - Add a water location&lt;br&gt;
+          - Moving out.
+          - Torque problems&lt;br&gt;
+          - Difficulties finding a job&lt;br&gt;
+          - Health concerns.
+          - Improve your life&lt;br&gt;
+            
+          The same advice is given to professionals and companies.&lt;br&gt;&lt;br&gt;</source>
+        <target><![CDATA[Le Feng shui s'adapte toujours à votre situation, il n'est donc jamais trop tard, jamais trop tôt !
+          Cependant, il y a des moments où il est préférable de le faire:<br><br>
+          - Acheter un terrain, une maison ou un appartement <br>
+          - Construction d'une propriété<br>
+          - Ajouter un emplacement d'eau<br>
+          - Déménagement.
+          - Problèmes de couple<br>
+          - Difficultés à trouver un emploi<br>
+          - Préoccupations en matière de santé.
+          - Améliorez votre vie<br>
+            
+          Les mêmes conseils sont donnés aux professionnels et aux entreprises.]]></target>
+      </trans-unit>
+      <trans-unit id="0tOdjqN" resname="A basic fee of 200€ is required for the preparation and writing of the report of your feng shui analysis.&#10;          To this rate will be added the rate for the analysis itself, which depends on :&lt;br&gt;&lt;br&gt;.&#10;          -Number of parts to be analyzed&lt;br&gt;&#10;          -Number of levels (or floors)&lt;br&gt;&#10;          -The exteriors (garden, terrace, balcony, park, etc.)&lt;br&gt;&#10;          -Specific requests (e.g. swimming pool installation)&lt;br&gt;">
+        <source>A basic fee of 200€ is required for the preparation and writing of the report of your feng shui analysis.
+          To this rate will be added the rate for the analysis itself, which depends on :&lt;br&gt;&lt;br&gt;.
+          -Number of parts to be analyzed&lt;br&gt;
+          -Number of levels (or floors)&lt;br&gt;
+          -The exteriors (garden, terrace, balcony, park, etc.)&lt;br&gt;
+          -Specific requests (e.g. swimming pool installation)&lt;br&gt;</source>
+        <target><![CDATA[Un montant de base de 200€ est requis pour la préparation et la rédaction du rapport de votre analyse feng shui.
+          A ce tarif s'ajoutera le tarif de l'analyse elle-même, qui dépend de :<br><br>.
+          -Nombre de pièces à analyser<br>
+          -Nombre de niveaux (ou étages)<br>
+          -Les extérieurs (jardin, terrasse, balcon, parc, etc.)<br>
+          -Demandes spécifiques (par exemple, installation d'une piscine)<br>]]></target>
+      </trans-unit>
+      <trans-unit id="rPbNnnC" resname="The objective of the work of the Feng-shui expert will be to study all the possibilities to select THE BEST !&lt;br&gt;&#10;          How do you position your front door?&#10;          How to distribute the rooms in your home?&#10;          What about the exteriors? How to make the most of them?&#10;          If you build, you have the chance to &quot;decide&quot; that potential.&#10;          You have the power to decide which elements impact in terms of Feng Shui like your door, your star grid or your room.&#10;          You must admit it would be a shame not to do so.">
+        <source>The objective of the work of the Feng-shui expert will be to study all the possibilities to select THE BEST !&lt;br&gt;
+          How do you position your front door?
+          How to distribute the rooms in your home?
+          What about the exteriors? How to make the most of them?
+          If you build, you have the chance to "decide" that potential.
+          You have the power to decide which elements impact in terms of Feng Shui like your door, your star grid or your room.
+          You must admit it would be a shame not to do so.</source>
+        <target><![CDATA[L'objectif du travail de l'expert en Feng-shui sera d'étudier toutes les possibilités de sélectionner LE MEILLEUR !<br>
+          Comment positionner votre porte d'entrée ?
+          Comment répartir les pièces dans votre maison ?
+          Qu'en est-il de l'extérieur ? Comment en tirer le meilleur parti ?
+          Si vous construisez, vous avez la possibilité de "décider" de ce potentiel.
+          Vous avez le pouvoir de décider quels éléments ont un impact en termes de Feng Shui comme votre porte, votre grille d'étoiles ou votre pièce.
+          Vous devez admettre qu'il serait dommage de ne pas le faire.]]></target>
+      </trans-unit>
+      <trans-unit id="SdJXC4b" resname="The places we work in, the way they're organized, and&#10;        and our vitality have a strong influence on our professional success, our vitality,&lt;br&gt; &#10;        our interpersonal communication and personal development.&#10;        Interiority and interiority are in permanent interaction !&lt;br&gt;&lt;br&gt;&#10;&#10;        A harmonious and balanced work space according to the precepts of Feng Shui &lt;br&gt;&#10;        traditional not only reduces stress, de-motivation, and the &lt;br&gt;&#10;        internal conflicts, but also to increase vitality, creativity and performance &lt;br&gt;&#10;        of each of the collaborators.">
+        <source>The places we work in, the way they're organized, and
+        and our vitality have a strong influence on our professional success, our vitality,&lt;br&gt; 
+        our interpersonal communication and personal development.
+        Interiority and interiority are in permanent interaction !&lt;br&gt;&lt;br&gt;
+
+        A harmonious and balanced work space according to the precepts of Feng Shui &lt;br&gt;
+        traditional not only reduces stress, de-motivation, and the &lt;br&gt;
+        internal conflicts, but also to increase vitality, creativity and performance &lt;br&gt;
+        of each of the collaborators.</source>
+        <target><![CDATA[Les lieux où nous travaillons, la façon dont ils sont organisés, et
+        et notre vitalité ont une forte influence sur notre réussite professionnelle, notre vitalité,<br> 
+        notre communication interpersonnelle et notre développement personnel.
+        L'intériorité et l'intériorité sont en interaction permanente !<br><br>
+
+        Un espace de travail harmonieux et équilibré selon les préceptes du Feng Shui <br>
+        traditionnel ne réduit pas seulement le stress, la démotivation et la <br>
+        conflits internes, mais aussi pour accroître la vitalité, la créativité et les performances <br>
+        de chacun des collaborateurs.]]></target>
+      </trans-unit>
+      <trans-unit id="pHBEe.w" resname="The origins of Feng Shui">
+        <source>The origins of Feng Shui</source>
+        <target>Les origines du Feng Shui</target>
+      </trans-unit>
+      <trans-unit id="BHf08wk" resname="Feng Shui is an ancient Chinese science about the role of energy in influencing the quality of life of each person. Feng Shui means wind and water, the basic elements of life, and is based on the principle that every object and every human being emanates energy. In order to have a harmonious life, a satisfying financial and emotional situation, a person's energies must positively interact with the energies of the objects around us">
+        <source>Feng Shui is an ancient Chinese science about the role of energy in influencing the quality of life of each person. Feng Shui means wind and water, the basic elements of life, and is based on the principle that every object and every human being emanates energy. In order to have a harmonious life, a satisfying financial and emotional situation, a person's energies must positively interact with the energies of the objects around us</source>
+        <target>Feng Shui est une ancienne science chinoise portant sur le rôle des énergies pour influencer la qualité de vie de chaque personne.En traduction, Feng Shui signifie vent et l'eau, les éléments de base de la vie, et il est fondé sur le principe selon lequel chaque objet et chaque être humain émane l'énergie. Afin d'avoir une vie harmonieuse, une situation financière et émotionnelle satisfaisante, les énergies d'une personne doivent positivement interagir avec les énergies des objets autour de nous.</target>
+      </trans-unit>
+      <trans-unit id="tOd_VFE" resname="The fundamentals">
+        <source>The fundamentals</source>
+        <target>Les fondamentaux</target>
+      </trans-unit>
+      <trans-unit id="x0I3wPP" resname="Wind and Water are the two most fundamental forms of life energy. Obviously without air and water, life would be impossible. They also symbolize the manifestations of the movement of energy. --&gt;         The goal of Feng Shui is therefore to harmonize the environmental energy of a place in a way that promotes the health, well-being and prosperity of its inhabitants.">
+        <source>Wind and Water are the two most fundamental forms of life energy. Obviously without air and water, life would be impossible. They also symbolize the manifestations of the movement of energy. --&gt;         The goal of Feng Shui is therefore to harmonize the environmental energy of a place in a way that promotes the health, well-being and prosperity of its inhabitants.</source>
+        <target><![CDATA[Le Vent et l’Eau sont les deux formes les plus fondamentales de l’énergie de la vie. Evidemment sans air et sans eau, la vie serait impossible. Ils symbolisent également les manifestations du mouvement de l’énergie. -->
+        Le Feng Shui a donc pour but d’harmoniser l’énergie environnementale d’un lieu de manière à favoriser la santé, le bien-être et la prospérité des habitants.]]></target>
+      </trans-unit>
+      <trans-unit id="nK_dInK" resname="The benefits">
+        <source>The benefits</source>
+        <target>Les bienfaits</target>
+      </trans-unit>
+      <trans-unit id="7fSr5hp" resname="Applying Feng Shui in a company, an office or a meeting room, allows to create a space under good influences. Moreover, it helps to promote understanding within a work team by directing everyone in the right direction. It also avoids absenteeism thanks to a pleasant place and atmosphere, and harmonizes relations with the company's economic partners. Consequently, it increases motivation and fulfilment in a beneficial environment.">
+        <source>Applying Feng Shui in a company, an office or a meeting room, allows to create a space under good influences. Moreover, it helps to promote understanding within a work team by directing everyone in the right direction. It also avoids absenteeism thanks to a pleasant place and atmosphere, and harmonizes relations with the company's economic partners. Consequently, it increases motivation and fulfilment in a beneficial environment.</source>
+        <target>Appliquer le Feng Shui dans une entreprise, un bureau ou encore une salle de réunion, permet de créer un espace sous bonnes influences. De plus, il permet de favoriser l’entente au sein d’une équipe de travail en dirigeant chacun dans sa bonne direction. Il permet également d’éviter l’absentéisme grâce à un lieu et une ambiance agréable, d’harmoniser les relations avec les partenaires économiques de l’entreprise. Par conséquent il augmente la motivation et l’épanouissement dans un cadre bienfaisant.</target>
+      </trans-unit>
+      <trans-unit id="ABU5vOP" resname="List of users">
+        <source>List of users</source>
+        <target>Liste des utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="pWFFJwz" resname="id">
+        <source>id</source>
+        <target>id</target>
+      </trans-unit>
+      <trans-unit id="ZHz6kbI" resname="Firstname">
+        <source>Firstname</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Wordpass</target>
+      </trans-unit>
+      <trans-unit id="Nw22cm5" resname="Modify my acocunt">
+        <source>Modify my acocunt</source>
+        <target>Modifier mon compte</target>
+      </trans-unit>
+      <trans-unit id="5vIf6GS" resname="Wind and Water are the two most fundamental forms of life energy. Obviously without air and water, life would be impossible. They also symbolize the manifestations of the movement of energy. --&gt;&#10;        The goal of Feng Shui is therefore to harmonize the environmental energy of a place in a way that promotes the health, well-being and prosperity of its inhabitants.">
+        <source>Wind and Water are the two most fundamental forms of life energy. Obviously without air and water, life would be impossible. They also symbolize the manifestations of the movement of energy. --&gt;
+        The goal of Feng Shui is therefore to harmonize the environmental energy of a place in a way that promotes the health, well-being and prosperity of its inhabitants.</source>
+        <target><![CDATA[Le vent et l'eau sont les deux formes les plus fondamentales de l'énergie vitale. Il est évident que sans l'air et l'eau, la vie serait impossible. Ils symbolisent également les manifestations du mouvement de l'énergie.
+        Le but du Feng Shui est donc d'harmoniser l'énergie environnementale d'un lieu de manière à promouvoir la santé, le bien-être et la prospérité de ses habitants.]]></target>
+      </trans-unit>
+      <trans-unit id="SFg6fcm" resname="using artificial intelligence">
+        <source>using artificial intelligence</source>
+        <target>en utilisant l'intelligence artificielle</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
